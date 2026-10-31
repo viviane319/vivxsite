@@ -19,7 +19,7 @@ Narrative strategist and community mobilizer, Brooklyn, NY. Five ways into the s
 
 ## Palette and type
 
-The microsite, creative resume and consulting one-pager use the **Altar Style Guide** palette, set on warm paper (`#FBF7F1`) with slate ink (`#1F2B38`):
+The microsite, creative resume, consulting one-pager and experience board use the **Altar Style Guide** palette, set on warm paper (`#FBF7F1`) with slate ink (`#1F2B38`):
 
 | Orchid | Marigold | Sage | Slate | Plum |
 |---|---|---|---|---|
@@ -30,7 +30,7 @@ They share three typefaces:
 - **Instrument Sans** for body text
 - **JetBrains Mono** for labels
 
-The experience board and spreadsheet CV still use the earlier Altarism palette:
+The spreadsheet CV still uses the earlier Altarism palette:
 
 | Altar Cream | Ember Black | Oxblood Clay | Marigold Amber | Dusk Plum | Incense Ash | Tulsi Green |
 |---|---|---|---|---|---|---|
