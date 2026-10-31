@@ -1,6 +1,8 @@
 # Microsite
 
-[`index.html`](index.html): a single-page personal site styled as an almanac of "field notes", with an arch motif.
+The site itself is the repo's root [`index.html`](../index.html), live at https://viviane319.github.io/vivxsite/. This folder's `index.html` only redirects there, so old `/microsite/` links keep working.
+
+It is a single-page personal site styled as an almanac of "field notes", with an arch motif.
 
 **Look**
 - **Palette:** from the Altar Style Guide.
