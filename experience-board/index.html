@@ -6,7 +6,7 @@
 <title>Rooted in Community</title>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,400;1,9..144,600&family=Inter:wght@400;600;800&family=Caveat:wght@600&display=swap" rel="stylesheet">
 <style>
-:root{/* Altarism palette + Tulsi Green */--ink:#180F06;--cream:#F6F3EC;--ox:#6E413A;--amber:#B77C45;--plum:#755367;--ash:#AAA7A1;--tulsi:#566B47;--tulsi-l:#B3C4A3;--paper:#F6F3EC;--mist:#EAE6DE;--fog:#DFDCD5}
+:root{/* Altar Style Guide palette (same as the microsite); old token names kept so the layout CSS is untouched */--ink:#1F2B38;--cream:#FBF7F1;--ox:#455F76;--amber:#F4B763;--plum:#896781;--ash:#C9CDD2;--tulsi:#2C3E50;--tulsi-l:#BACFAB;--orchid:#EFA4D3;--paper:#FBF7F1;--mist:#F2EDE5;--fog:#E7E1D8}
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{background:var(--mist)}
 body{font:12px/1.4 "Inter",sans-serif;color:var(--ink);overflow-x:hidden}
@@ -31,7 +31,7 @@ body{font:12px/1.4 "Inter",sans-serif;color:var(--ink);overflow-x:hidden}
 .item{position:absolute}
 .tilt-l{transform:rotate(-4deg)} .tilt-r{transform:rotate(3.5deg)} .tilt-s{transform:rotate(-1.5deg)}
 
-.poster{border-radius:4px;box-shadow:0 6px 18px rgba(24,15,6,.18);overflow:hidden;padding:16px;color:var(--cream)}
+.poster{border-radius:4px;box-shadow:0 6px 18px rgba(31,43,56,.18);overflow:hidden;padding:16px;color:var(--cream)}
 .poster img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .poster .k{font:600 10px "Inter";letter-spacing:.16em;text-transform:uppercase;opacity:.85}
 .poster h3{font:800 30px/1 "Fraunces";margin:8px 0}
@@ -40,10 +40,10 @@ body{font:12px/1.4 "Inter",sans-serif;color:var(--ink);overflow-x:hidden}
 .caption b{color:var(--ox)}
 .cloud{background:var(--cream);border:2px solid var(--ink);border-radius:50%;padding:30px 26px;text-align:center;font-size:11px;line-height:1.4;box-shadow:6px 6px 0 var(--cream), 6px 6px 0 2px var(--ink)}
 .cloud::after{content:"";position:absolute;width:22px;height:22px;border:2px solid var(--ink);border-radius:50%;background:var(--cream);bottom:-30px;left:40%}
-.oval{border-radius:50%;padding:42px 44px;color:var(--cream);font-size:11.5px;line-height:1.45;text-align:center;background:radial-gradient(circle at 30% 25%,var(--amber),var(--ox) 50%,var(--plum) 75%,var(--ink));display:grid;place-items:center}
+.oval{border-radius:50%;padding:42px 44px;color:var(--cream);font-size:11.5px;line-height:1.45;text-align:center;background:radial-gradient(circle at 30% 20%,var(--amber),var(--plum) 35%,var(--ox) 70%,var(--ink));display:grid;place-items:center}
 .oval b{font:800 14px "Fraunces"}
-.sticker{white-space:nowrap;font:600 26px/1 "Caveat",cursive;color:var(--ink);background:var(--amber);padding:6px 14px;border-radius:4px;box-shadow:0 3px 8px rgba(24,15,6,.15)}
-.clip{background:var(--paper);border:1px solid var(--fog);box-shadow:0 6px 16px rgba(24,15,6,.14);padding:16px 18px}
+.sticker{white-space:nowrap;font:600 26px/1 "Caveat",cursive;color:var(--ink);background:var(--amber);padding:6px 14px;border-radius:4px;box-shadow:0 3px 8px rgba(31,43,56,.15)}
+.clip{background:var(--paper);border:1px solid var(--fog);box-shadow:0 6px 16px rgba(31,43,56,.14);padding:16px 18px}
 .clip .k{font:600 10px "Inter";letter-spacing:.16em;text-transform:uppercase;color:var(--plum)}
 .clip h3{font:600 22px/1.1 "Fraunces";margin:6px 0}
 .clip p{font-size:11px;color:var(--ink);opacity:.82}
@@ -85,13 +85,13 @@ body{font:12px/1.4 "Inter",sans-serif;color:var(--ink);overflow-x:hidden}
     <div class="item sticker tilt-r" style="left:30px;top:560px;background:var(--tulsi-l)">2016 – 2018 · The detour</div>
     <div class="item clip tilt-s" style="left:0;top:614px;width:210px">
       <div class="k">Cardinal Health · Oracle</div><h3>Learning the corporate side</h3><p>An 8,000-attendee conference, then cloud consulting for C-level execs (104% attainment in FY17 Q2).</p></div>
-    <div class="item poster tilt-r" style="left:220px;top:600px;width:220px;height:250px;background:linear-gradient(160deg,var(--amber),var(--ox))">
+    <div class="item poster tilt-r" style="left:220px;top:600px;width:220px;height:250px;background:linear-gradient(160deg,var(--plum),var(--ox))">
       <div class="k">Da Nang, Vietnam · 2017</div><h3>The Light House</h3><p>Co-founded a hostel. 200+ bookings in the first month, sold out in week one, built with local community leaders.</p>
       <img src="images/light-house.jpg" alt="" onerror="this.remove()"></div>
     <div class="item cloud" style="left:30px;top:830px;width:230px;position:absolute">Same skills, new stage: lead generation, $10K raised through partnerships with local community leaders, and a budget I owned end to end.</div>
 
     <!-- ERA 3: Chicago -->
-    <div class="item sticker tilt-l" style="left:480px;top:4px;background:var(--ox);color:var(--cream)">2018 – 2022 · Chicago</div>
+    <div class="item sticker tilt-l" style="left:480px;top:4px;background:var(--orchid)">2018 – 2022 · Chicago</div>
     <div class="item clip tilt-r" style="left:470px;top:60px;width:240px">
       <div class="k">SmithBucklin</div><div class="big" style="color:var(--tulsi)">$110K</div><p>raised through two annual silent auctions for local charities, plus $72K in ad sales and $400K in event budgets.</p></div>
     <div class="item poster tilt-l" style="left:480px;top:265px;width:230px;height:250px;background:var(--ox)">
@@ -111,7 +111,7 @@ body{font:12px/1.4 "Inter",sans-serif;color:var(--ink);overflow-x:hidden}
       <div class="k">Press for the network &amp; its leaders</div>
       <span>Forbes</span><span>Candid</span><span>Nonprofit Quarterly</span><span>Philanthropy News Digest</span></div>
     <div class="item caption" style="left:760px;top:390px;width:300px">I came to DOCN for more value-aligned work, and stayed through a fellowship and a master's. I managed budgets, staff, vendors, and every communications project, and built data-driven campaigns with <b>TargetSmart</b> and <b>Blackbaud</b> to grow donor engagement.</div>
-    <div class="item poster tilt-l" style="left:780px;top:560px;width:250px;height:250px;background:linear-gradient(160deg,var(--amber),var(--plum))">
+    <div class="item poster tilt-l" style="left:780px;top:560px;width:250px;height:250px;background:linear-gradient(160deg,var(--ox),var(--plum))">
       <div class="k">National Urban Fellows · Class of 2025</div><h3>Georgetown M.P.M.</h3><p>A fully funded master's at the McCourt School, studying philanthropy and global policy while working full time.</p>
       <img src="images/nuf-georgetown.jpg" alt="" onerror="this.remove()"></div>
     <div class="item cloud" style="left:1060px;top:560px;width:280px;position:absolute">Balancing the fellowship, work, and school in a tumultuous political moment challenged me beyond my capacity, and reminded me to lean on community in all the hard things.</div>
