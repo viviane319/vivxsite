@@ -1,11 +1,13 @@
-# Master Portfolio: Viv Tran
+# vivxsite: Viv Tran
 
 Narrative strategist and community mobilizer, Brooklyn, NY. Five ways into the same story.
+
+Live site: https://viviane319.github.io/vivxsite/
 
 | # | Piece | Open it | Source |
 |---|-------|---------|--------|
 | 1 | Spreadsheet resume | [`viv-tran-cv.xlsx`](spreadsheet-resume/viv-tran-cv.xlsx) | [`build_sheet.py`](spreadsheet-resume/build_sheet.py) |
-| 2 | Microsite | [`microsite/index.html`](microsite/index.html) | same file |
+| 2 | Microsite | [`index.html`](index.html) (served at the site root) | same file |
 | 3 | Creative resume | [`viv-tran-resume.pdf`](creative-resume/viv-tran-resume.pdf) | [`resume.html`](creative-resume/resume.html) |
 | 4 | Consulting one-pager (Do Better Comms) | [`do-better-comms-one-pager.pdf`](consulting-one-pager/do-better-comms-one-pager.pdf) | [`one-pager.html`](consulting-one-pager/one-pager.html) |
 | 5 | Experience board | [`experience-board.png`](experience-board/experience-board.png) | [`experience-board/index.html`](experience-board/index.html) |
